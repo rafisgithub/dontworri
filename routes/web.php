@@ -14,3 +14,4 @@ use App\Http\Controllers\Web\frontend\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/result',[HomeController::class,'getResult'])->name('university.result');
